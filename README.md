@@ -19,14 +19,25 @@ Agora é com vocês!
 
 ### Implementação e testes
 
-Implemente a versão recursiva da busca binária. Modifique o código para logar o tempo de execução da sua implementação e gere novamente o arquivo `execution.data`, que deve conter os dados da versão recursiva e da versão iterativa.
-Lembre-se sobre como redirecionar a saída de uma execução para um arquivo (`> execution.data`).
+Comece gerando o arquivo que vai conter arrays de diferentes tamanhos. No diretório `scripts`, execute:
 
-Escreva testes para o seu código. Coloque seus testes no diretório `src/test/java`.
+> python gera-arrays.py > ../data/input-arrays.data
+
+Veja que o arquivo `../data/input-arrays.data` contém arrays de diversos tamanhos que vamos usar para ver o desempenho dos nossos algoritmos buscando elementos neles.
+
+Agora execute a classe `Main` passando como entrada esses Arrays. No diretório `src/main/java`, execute:
+
+> java Main < ../../../data/input-arrays.data
+
+Agora, **implemente a versão recursiva da busca binária**. Modifique o código para logar o tempo de execução da sua implementação também e redirecione a saída para um arquivos chamado `execution.data`, que deve conter os dados da versão recursiva e da versão iterativa.
+
+> java Main < ../../../data/input-arrays.data > ../../../data/execution.data
+
+Confira se o arquivo `../../../data/execution.data` foi gerado corretamente.
 
 ### Análise
 
-Plote o gráfico e analise os dados. O comando é: `R < caminho/p/plot.R --vanilla caminho/p/execution.data`
+Plote o gráfico e analise os dados. No diretório scripts, execute o comando: `R < plot.R --vanilla ../data/execution.data`
 
 Perguntas importantes:
 
