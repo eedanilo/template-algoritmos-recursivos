@@ -40,19 +40,32 @@ Não vamos plotar nenhum gráfico dessa vez. Analise os dados presentes no arqui
 
 Perguntas importantes:
   * No código, eu executei, para cada entrada, 30 rodadas e peguei a mediana do tempo de execução para representar o mesmo. Por que eu fiz isso?
-   * **INSIRA SUA RESPOSTA AQUI**
+    
+  > INSIRA SUA RESPOSTA AQUI
+
   * Analise os dados de tempo de execução do algoritmo iterativo. O que você percebe sobre a relação entre o aumento da entrada e o aumento do tempo de execução?
-   * **INSIRA SUA RESPOSTA AQUI**
+
+  > INSIRA SUA RESPOSTA AQUI
+    
   * Analise os dados de tempo de execução do algoritmo recursivo. O que você percebe sobre a relação entre o aumento da entrada e o aumento do tempo de execução?
-   * **INSIRA SUA RESPOSTA AQUI**
+   
+  > INSIRA SUA RESPOSTA AQUI
+  
   * Na teoria, os algoritmos tem a mesma eficiência assintótica?
-   * **INSIRA SUA RESPOSTA AQUI**
+   
+   > INSIRA SUA RESPOSTA AQUI
+  
   * Na prática, qual é mais veloz? Por que você acha que isso acontece?
-   * **INSIRA SUA RESPOSTA AQUI**
+   
+   > INSIRA SUA RESPOSTA AQUI
+  
   * Na teoria, qual a classe de complexidade dos dois algoritmos? O que isso significa?
-     **INSIRA SUA RESPOSTA AQUI**
-  * Trata-se de algoritmos eficientes de busca? Por que?
-     **INSIRA SUA RESPOSTA AQUI**
+
+   > INSIRA SUA RESPOSTA AQUI
+
+  * Esses são algoritmos eficientes de busca? Por que?
+   
+   > INSIRA SUA RESPOSTA AQUI
 
 ### Mais estudo
 
@@ -89,7 +102,9 @@ Executar os comandos abaixo no diretório raiz do seu projeto (onde está o arqu
 
 > Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes. Isso deve ser feito com os comandos do mvn (compile e test).
 
-> Passo 2. Submeta as suas modificações para o repositório
+> Passo 2. Certifique-se de que você respondeu as perguntas teóricas onde foi indicado aqui no README.
+
+> Passo 3. Submeta as suas modificações para o repositório
 
   * `git pull`
   * `git commit -m "entregando o lab de algoritmos recursivos"`
