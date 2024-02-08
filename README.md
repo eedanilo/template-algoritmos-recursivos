@@ -22,7 +22,7 @@ Comece gerando o arquivo que vai conter arrays de diferentes tamanhos. No diret�
 
 > python gera-arrays.py > ../data/input-arrays.data
 
-Veja no diretório `data` que o arquivo `input-arrays.data` contém arrays de tamanhos 1000, 10000, 100000, 1000000 e 10000000 que vamos usar para ver o desempenho dos nossos algoritmos buscando elementos neles. 
+Veja no diretório `data` que o arquivo `input-arrays.data` contém arrays de tamanhos 1000, 10000, 100000 e 1000000, que vamos usar para ver o desempenho dos nossos algoritmos buscando elementos neles. 
 
 Agora execute a classe `Main` passando como entrada esses Arrays. No diretório `src/main/java`, execute:
 
