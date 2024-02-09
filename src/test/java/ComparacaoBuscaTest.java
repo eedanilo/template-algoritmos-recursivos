@@ -31,5 +31,5 @@ public class ComparacaoBuscaTest {
         assertEquals(-1, comp.buscaBinariaRecursiva(v, 0, v.length - 1, 90000));
     }
 
-    // TODO: agora é com você! Escreva mais testes!
+    // TODO: Escreva mais testes!
 }
