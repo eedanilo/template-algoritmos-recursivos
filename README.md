@@ -12,6 +12,8 @@ Depois deste roteiro você será capaz de implementar alguns algoritmos recursiv
 
 **O exemplo.** Vamos trabalhar com a busca binária, que vimos na aula teórica.  Veja em `/src/main/java` que eu já implementei a versão iterativa deste algoritmo e já preparei um `main` para logar a execução com os dados.
 
+Neste roteiro nós vamos gerar um arquivo com arrays de diferentes tamanhos, executar algoritmos que operam sobre esses arquivos e medir o tempo de execução para então fazermos a análise.
+
 Agora é com vocês!
 
 ## A tarefa. 
