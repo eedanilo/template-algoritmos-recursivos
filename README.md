@@ -8,7 +8,7 @@
 
 ## O template
 
-> Não altere o arquivo pom.xml
+> Não altere o arquivo build.gradle
 
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
@@ -18,9 +18,9 @@
 
 > Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. Mas você pode/deve criar outros métodos e classes, desde que passem nos testes.
 
-> Compilando: `mvn compile` na raiz do projeto.
+> Compilando: `gradle compileJava` na raiz do projeto.
 
-> Executando os testes: `mvn test` na raiz do projeto.
+> Executando os testes: `gradle test` na raiz do projeto.
 
 
 ## Introdução
@@ -53,7 +53,7 @@ Agora, **implemente a versão recursiva da busca binária**. Modifique o código
 
 Confira se o arquivo `execution.data` dentro do diretório `data` foi gerado corretamente.
 
-Ah...confira (sempre!) se você passa nos testes: `mvn test`.
+Ah...confira (sempre!) se você passa nos testes: `gradle test`.
 
 ### Análise
 
@@ -100,7 +100,7 @@ Implemente as seguintes questões (com recursividade) no tst-eda:
 
 > Passo 0. Modifique o arquivo README. Coloque seu nome, email @ccc e matrícula nos lugares indicados. Se você não fizer isso, não considero que sua prova foi assinada e, portanto, não vou corrigir. Não mude a formatação da linha. Apenas inclua seus dados.
 
-> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes. Isso deve ser feito com os comandos do mvn (compile e test).
+> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes. Isso deve ser feito com os comandos do gradle (compileJava e test).
 
 > Passo 2. Certifique-se de que você respondeu as perguntas teóricas onde foi indicado aqui no README.
 
