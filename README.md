@@ -57,7 +57,7 @@ Ah...confira (sempre!) se você passa nos testes: `mvn test`.
 
 ### Análise
 
-Não vamos plotar nenhum gráfico dessa vez. Analise os dados presentes no arquivo `execution.data`.
+Não vamos plotar gráfico dessa vez. Analise os dados presentes no arquivo `execution.data`.
 
 Perguntas importantes:
   * No código, eu executei, para cada entrada, 30 rodadas e peguei a mediana do tempo de execução para representar o mesmo. Por que eu fiz isso?
