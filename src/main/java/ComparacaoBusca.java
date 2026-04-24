@@ -1,8 +1,17 @@
 public class ComparacaoBusca {
 
     public int buscaBinariaRecursiva(int[] v, int ini, int fim, int chave) {
-        // TODO implementar
-        return -1000;
+        if (ini > fim){
+            return -1;
+        }
+        int meio = ini + (fim - ini) / 2;
+        if (v[meio] == chave){
+            return meio;
+        }
+        if (v[meio] > chave){
+            return buscaBinariaRecursiva(v, ini, meio - 1, chave);
+        }
+        return buscaBinariaRecursiva(v, meio + 1, fim, chave);
     }
     
     public int buscaBinariaIterativa(int[] v, int chave) {
