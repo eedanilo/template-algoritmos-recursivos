@@ -20,6 +20,7 @@ public class Main {
                     // medindo tempo
                     long start = System.nanoTime();
                     comparacao.buscaBinariaIterativa(entrada, -123456);
+                    comparacao.buscaBinariaRecursiva(entrada, 0, entrada.length - 1, -123456);
                     long end = System.nanoTime();
                     long time = end - start;
                     obs[i] = time;
@@ -27,6 +28,7 @@ public class Main {
 
                 Arrays.sort(obs);
                 System.out.println("iterativa " + (obs[14]) + " " + entrada.length);
+                System.out.println("recursiva " + (obs[14]) + " " + entrada.length);
 
            }
 
